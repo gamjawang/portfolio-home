@@ -330,24 +330,6 @@ footer {
   color: white;
 }
 
-@media (max-width: 1300px) {
-  .team-container {
-    grid-template-areas:
-      "card-1 card-2"
-      "card-3 card-4";
-  }
-}
-
-@media (max-width: 700px) {
-  .team-container {
-    grid-template-areas:
-      "card-1"
-      "card-2"
-      "card-3"
-      "card-4";
-  }
-}
-
 @media (max-width: 968px) {
   section {
     padding: 8em 15%;
